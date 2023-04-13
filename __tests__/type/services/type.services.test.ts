@@ -29,3 +29,16 @@ test('test triangle service equlateral', () => {
     })
     
 });
+
+test('test triangle service escaleno', () => {
+
+    const triangleDto: TriangleDto = {
+        sideA: 4,
+        sideB: 2,
+        sideC: 3,
+    };
+    typeService.getTriangleType(triangleDto).then(triangleType => {
+        expect(triangleType).toBe('ESCALENO');
+    })
+    
+});
