@@ -15,3 +15,17 @@ test('test triangle service isosceles', () => {
     })
     
 });
+
+
+test('test triangle service equlateral', () => {
+
+    const triangleDto: TriangleDto = {
+        sideA: 1,
+        sideB: 1,
+        sideC: 1,
+    };
+    typeService.getTriangleType(triangleDto).then(triangleType => {
+        expect(triangleType).toBe('EQUILATERAL');
+    })
+    
+});
