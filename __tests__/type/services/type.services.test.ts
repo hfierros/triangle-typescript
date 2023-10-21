@@ -15,3 +15,17 @@ test('test triangle service isosceles', () => {
     })
     
 });
+
+test('test triangle service escaleno', () => {
+
+    const triangleDto: TriangleDto = {
+        sideA: 3, 
+        sideB: 2,
+        sideC: 1,
+    };
+    
+    typeService.getTriangleType(triangleDto).then(triangleType => {
+        expect(triangleType).toBe('SCALENE');
+    })
+    
+});
