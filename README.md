@@ -25,7 +25,7 @@ npm i
 And run the application: 
 
 ```
-npm run 
+npm start 
 ```
 
 The structure of the code is an overkill for the application, but will help to show unit test and mocks. 
