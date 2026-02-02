@@ -18,7 +18,7 @@ describe("Test field validator", () => {
 
         let next = jest.fn();
         typeMiddleware.validateTriangleFields(req, res, next);
-        expect(next).toBeCalledTimes(1);
+        expect(next).toHaveBeenCalledTimes(1);
     
     })
 
@@ -31,8 +31,8 @@ describe("Test field validator", () => {
 
         let next = jest.fn();
         typeMiddleware.validateTriangleFields(req, res, next);
-        expect(res.status).toBeCalledWith(400);
-        expect(res.send).toBeCalledWith({error: `Missing required field`});
+        expect(res.status).toHaveBeenCalledWith(400);
+        expect(res.send).toHaveBeenCalledWith({error: `Missing required field`});
     
     })
 })
@@ -52,7 +52,7 @@ describe("Test valid triangle", () => {
 
         let next = jest.fn();
         typeMiddleware.validTriangle(req, res, next);
-        expect(next).toBeCalledTimes(1);
+        expect(next).toHaveBeenCalledTimes(1);
     
     })
 
@@ -70,8 +70,8 @@ describe("Test valid triangle", () => {
 
         let next = jest.fn();
         typeMiddleware.validTriangle(req, res, next);
-        expect(res.status).toBeCalledWith(400);
-        expect(res.send).toBeCalledWith({error: `Invalid triangle`});
+        expect(res.status).toHaveBeenCalledWith(400);
+        expect(res.send).toHaveBeenCalledWith({error: `Invalid triangle`});
     
     })
 })
