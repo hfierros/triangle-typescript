@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1770057601835" clover="3.2.0">
+  <project timestamp="1770057601835" name="All files">
+    <metrics statements="18" coveredstatements="16" conditionals="21" coveredconditionals="16" methods="4" coveredmethods="4" elements="43" coveredelements="36" complexity="0" loc="18" ncloc="18" packages="3" files="3" classes="3"/>
+    <package name="controller">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="type.controller.ts" path="/home/hfierros/source/iteso/triangle-typescript/type/controller/type.controller.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="middleware">
+      <metrics statements="8" coveredstatements="8" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
+      <file name="type.middleware.ts" path="/home/hfierros/source/iteso/triangle-typescript/type/middleware/type.middleware.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="cond" truecount="6" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="6" coveredstatements="4" conditionals="10" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="type.service.ts" path="/home/hfierros/source/iteso/triangle-typescript/type/services/type.service.ts">
+        <metrics statements="6" coveredstatements="4" conditionals="10" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="cond" truecount="3" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
